@@ -1,0 +1,18 @@
+# Environment / Virtual Env
+venv/
+.env
+
+# IDE / Editor settings
+.vscode/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific
+*/migrations/
+
+# Static and media (optional, if generated dynamically)
+staticfiles/
+media/
