@@ -78,7 +78,7 @@ export function Register() {
           <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-600 rounded-2xl mb-4 shadow-lg">
             <Database size={32} className="text-white" />
           </div>
-          <h1 className="text-3xl font-bold text-gray-900 mb-2">PC Saver</h1>
+          <h1 className="text-3xl font-bold text-gray-900 mb-2"><Link to='/'>PC Saver</Link></h1>
           <p className="text-gray-600">PostgreSQL Connection Saver</p>
         </div>
 
