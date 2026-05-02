@@ -5,7 +5,7 @@ PC Saver is a web-based PostgreSQL **connection pooler** that demonstrates **Ope
 
 ---
 
-## ⚡ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |--------|-------------|
@@ -17,9 +17,9 @@ PC Saver is a web-based PostgreSQL **connection pooler** that demonstrates **Ope
 
 ---
 
-## 📦 Project Setup
+## Project Setup
 
-### 🔧 Requirements
+### Requirements
 - PostgreSQL 16+
 - Python 3.10+
 - Node.js (latest stable)
@@ -27,9 +27,9 @@ PC Saver is a web-based PostgreSQL **connection pooler** that demonstrates **Ope
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
-### 🧩 **Backend Setup**
+### **Backend Setup**
 
 **Step 1:** Open the `backend/` folder in VS Code. 
 
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 **Step 2:** Open **PGAdmin** (installed with PostgreSQL).
 
-> ⚠️ You must know your PGAdmin password.
+> Note: You must know your PGAdmin password.
 
 **Step 3:** Create a new database named:
 
@@ -60,12 +60,12 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-✅ Backend will run on:
+Backend will run on:
 **[http://127.0.0.1:8000/](http://127.0.0.1:8000/)**
 
 ---
 
-### 🖼️ **Frontend Setup**
+### **Frontend Setup**
 
 **Step 1:** Open the `frontend/` folder in VS Code.
 
@@ -78,12 +78,12 @@ npm audit fix --force
 npm run dev
 ```
 
-✅ Frontend will run on:
+Frontend will run on:
 **[http://localhost:5173/](http://localhost:5173/)**
 
 ---
 
-## 🧠 Operating System Concepts Demonstrated
+## Operating System Concepts Demonstrated
 
 | OS Concept              | Implementation in PC Saver                                                              |
 | ----------------------- | --------------------------------------------------------------------------------------- |
@@ -97,7 +97,7 @@ npm run dev
 
 ---
 
-## ⚙️ Pooler Engine Overview
+## Pooler Engine Overview
 
 ### File: `pooler_engine/pool_manager.py`
 
@@ -148,7 +148,7 @@ Ensures the pool operates according to each user’s configuration.
 
 ---
 
-## 🧩 Backend API Modules
+## Backend API Modules
 
 | API Endpoint                        | Description                                          |
 | ----------------------------------- | ---------------------------------------------------- |
@@ -158,7 +158,7 @@ Ensures the pool operates according to each user’s configuration.
 
 ---
 
-## 🖥️ Frontend Overview
+## Frontend Overview
 
 **Built using React + Tailwind**, featuring:
 
@@ -168,11 +168,11 @@ Ensures the pool operates according to each user’s configuration.
   * Live metrics:
 
     ```
-    👥 Users Registered: X  
-    🗄️ Databases Connected: X  
-    ⚙️ Avg Pool Size: X  
-    📥 Avg Queue Size: X  
-    ⏱️ Avg Timeout: X sec
+    Users Registered: X  
+    Databases Connected: X  
+    Avg Pool Size: X  
+    Avg Queue Size: X  
+    Avg Timeout: X sec
     ```
   * Sections: Home | About | Features | Metrics | Concepts | Login | Register
 
@@ -185,7 +185,7 @@ Ensures the pool operates according to each user’s configuration.
 
 ---
 
-## 🧩 Architecture Diagram (Conceptual)
+## Architecture Diagram (Conceptual)
 
 ```
         ┌──────────────────────────┐
@@ -213,7 +213,7 @@ Ensures the pool operates according to each user’s configuration.
 ```
 ---
 
-## 🏁 Summary
+## Summary
 
 > **PC Saver** is not just a database pooler — it’s an **Operating System simulator** at the database level.
 > It shows how modern systems manage limited resources efficiently through concurrency, synchronization, and scheduling.
